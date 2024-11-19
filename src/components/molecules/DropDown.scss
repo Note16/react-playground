@@ -1,0 +1,36 @@
+.dropdown {
+  &-link {
+    cursor: pointer;
+  }
+  &-container {
+    position: relative;
+
+    > span {
+      position: absolute;
+      background-color: #ffc119;
+      color: #1b1b1b;
+      top: 24px;
+      left: 0px;
+      width: 150px;
+      border-top: #1b1b1b solid 2px;
+
+      > span {
+        display: block;
+        padding: 8px;
+        cursor: pointer;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.icon {
+  &-down::after {
+    padding-left: 3px;
+    content: "\2B9F";
+  }
+  &-up::after {
+    padding-left: 3px;
+    content: "\2B9D";
+  }
+}

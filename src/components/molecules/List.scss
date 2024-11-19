@@ -1,0 +1,33 @@
+ol {
+  padding: 5px 5px 5px 30px;
+  min-width: 245px;
+  height: calc(60% - 74px);
+  max-height: calc(60% - 74px);
+  overflow-y: auto;
+  li {
+    &.fav {
+      border-left: 4px solid;
+      border-color: seagreen;
+    }
+
+    padding: 5px 5px;
+    span {
+      color: #fff;
+      margin: 2px 0;
+      display: block;
+      small {
+        margin: 0px 4px;
+        color: darkgrey;
+        font-size: 11px;
+      }
+    }
+    &:hover {
+      &::marker {
+        color: #fff;
+      }
+      a {
+        color: white;
+      }
+    }
+  }
+}

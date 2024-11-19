@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-size: 12px;
+  font-family: sans-serif;
+  background-color: rgb(27, 27, 27);
+  color: #ffc119;
+  display: flex;
+}
+#root {
+  border: #ffc119 2px solid;
+  border-radius: 20px;
+  width: 100%;
+}
+.hidden {
+  display: none;
+}

@@ -1,0 +1,127 @@
+.bat {
+  &-idle {
+    width: 46px;
+    height: 30px;
+    background: url("/images/animated-icons/Bat/Idle (46x30).png");
+    animation: sprite 1s steps(11) infinite;
+    transform: scaleX(-1);
+  }
+
+  &-flying {
+    width: 46px;
+    height: 30px;
+    background: url("/images/animated-icons/Bat/Flying (46x30).png");
+    animation: sprite 1s steps(6) infinite;
+    transform: scaleX(-1);
+  }
+}
+
+.bluebird {
+  &-fly {
+    margin: 0px 2px;
+    width: 32px;
+    height: 32px;
+    background: url("/images/animated-icons/BlueBird/Flying (32x32).png");
+    animation: sprite 1s steps(8) infinite;
+    transform: scaleX(-1);
+  }
+}
+
+.chicken {
+  &-idle {
+    width: 32px;
+    height: 34px;
+    background: url("/images/animated-icons/Chicken/Idle (32x34).png");
+    animation: sprite 1s steps(12) infinite;
+    transform: scaleX(-1);
+  }
+  &-run {
+    width: 32px;
+    height: 34px;
+    background: url("/images/animated-icons/Chicken/Run (32x34).png");
+    animation: sprite 1s steps(13) infinite;
+    transform: scaleX(-1);
+  }
+}
+
+.duck {
+  &-idle {
+    width: 36px;
+    height: 36px;
+    background: url("/images/animated-icons/Duck/Idle (36x36).png");
+    animation: sprite 1s steps(9) infinite;
+    transform: scaleX(-1);
+  }
+}
+
+.fatbird {
+  &-idle {
+    width: 40px;
+    height: 48px;
+    background: url("/images/animated-icons/FatBird/Idle (40x48).png");
+    animation: sprite 1s steps(7) infinite;
+  }
+}
+
+.mushroom {
+  &-idle {
+    width: 32px;
+    height: 32px;
+    background: url("/images/animated-icons/Mushroom/Idle (32x32).png");
+    animation: sprite 1s steps(13) infinite;
+    transform: scaleX(-1);
+  }
+
+  &-run {
+    width: 32px;
+    height: 32px;
+    background: url("/images/animated-icons/Mushroom/Run (32x32).png");
+    animation: sprite 1s steps(15) infinite;
+    transform: scaleX(-1);
+  }
+}
+
+.pig {
+  &-walk {
+    width: 36px;
+    height: 30px;
+    background: url("/images/animated-icons/Pig/Walk (36x30).png");
+    animation: sprite 1s steps(15) infinite;
+    transform: scaleX(-1);
+  }
+
+  &-run {
+    width: 36px;
+    height: 30px;
+    background: url("/images/animated-icons/Pig/Run (36x30).png");
+    animation: sprite 1s steps(11) infinite;
+    transform: scaleX(-1);
+  }
+}
+
+.rino {
+  &-idle {
+    width: 52px;
+    height: 34px;
+    background: url("/images/animated-icons/Rino/Idle (52x34).png");
+    animation: sprite 1s steps(10) infinite;
+    transform: scaleX(-1);
+  }
+
+  &-run {
+    width: 52px;
+    height: 34px;
+    background: url("/images/animated-icons/Rino/Run (52x34).png");
+    animation: sprite 1s steps(5) infinite;
+    transform: scaleX(-1);
+  }
+}
+
+@keyframes sprite {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
