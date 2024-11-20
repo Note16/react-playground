@@ -1,0 +1,15 @@
+
+.filters {
+    > button {
+      cursor: pointer;
+      background-color: unset;
+      border:1px solid green;
+      padding: 6px 12px;
+      margin-right: 4px;
+
+      &.active {
+        background-color: green;
+        color: white;
+      }
+    }
+  }

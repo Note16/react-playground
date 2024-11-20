@@ -1,6 +1,6 @@
 import { FC, ReactElement } from 'react';
 import './List.scss'
-import { ListItemProps } from '../atoms/ListItem';
+import { ListItemProps } from '../../atoms/ListItem/ListItem';
 
 interface ListProps
 {
@@ -10,7 +10,9 @@ interface ListProps
 const ListItem: FC<ListProps> = ({ children }) => {
   return (
     <ol>
-        { children }
+        { 
+          children 
+        }
     </ol>
   )
 }

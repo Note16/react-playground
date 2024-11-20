@@ -1,6 +1,9 @@
 .dropdown {
   &-link {
     cursor: pointer;
+    font-weight: bold;
+    border: none;
+    background: none;
   }
   &-container {
     position: relative;
@@ -11,10 +14,17 @@
       color: #1b1b1b;
       top: 24px;
       left: 0px;
-      width: 150px;
       border-top: #1b1b1b solid 2px;
 
-      > span {
+      .active {
+        color: white;
+        background-color: #00a651;
+      }
+      > button {
+        text-align: left;
+        width: 150px;
+        border: none;
+        background: none;
         display: block;
         padding: 8px;
         cursor: pointer;

@@ -1,9 +1,7 @@
 import { FC } from 'react';
 import './AnimatedIcon.scss'
 
-interface AnimatedIconProps
-{
-  icon: "bat-idle" 
+export type Icons = "bat-idle" 
     | "bat-flying" 
     | "bluebird-fly" 
     | "chicken-idle" 
@@ -15,7 +13,11 @@ interface AnimatedIconProps
     | "rino-idle"
     | "rino-run"
     | "pig-walk" 
-    | "pig-run"
+    | "pig-run";
+
+interface AnimatedIconProps
+{
+  icon: Icons
 }
 
 const AnimatedIcon: FC<AnimatedIconProps> = ({ icon }) => {
